@@ -6,8 +6,6 @@ import { FaWhatsapp } from "react-icons/fa6";
 import { FiMail } from "react-icons/fi";
 import { FaBehance } from "react-icons/fa";
 import ImgMain from '../img/inicio.png';
-import OndasUno from '../img/ondas1.png';
-import OndasDos from '../img/ondas2.png';
 import Cohete from '../img/cohete 1.png';
 import Altavoz from '../img/altavoz 1.png';
 import '../App.css';
@@ -63,8 +61,6 @@ function Main() {
             <div className='main'>
                 <div className='img-main'>
                     <img className='img-principal' src={ImgMain} alt="Imagen principal que muestra una foto del equipo" />
-                    <img className='ondas1' src={OndasUno} alt="Imagen que dice Ilustraciones" />
-                    <img className='ondas2' src={OndasDos} alt="Imagen que dice Marketing Digital y Diseño Gráfico" />
                     <img className='altavoz' ref={altavozRef} src={Altavoz} alt="Ilustración de un altavoz" />
                 </div>
                 <div className='texto-main'>
