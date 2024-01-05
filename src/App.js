@@ -7,6 +7,9 @@ import Motivos from './componentes/Motivos.js'
 import Acerca from './componentes/AcercaDe.js'
 import Extra from './componentes/Extra.js'
 import UltimosProyectos from './componentes/UltimosProyectos.js'
+import Reseñas from './componentes/Reseñas.js'
+import Contacto from './componentes/Contacto.js'
+
 
 function App() {
   return (
@@ -25,6 +28,10 @@ function App() {
       <Extra />
       {/* Proyectos*/}
       <UltimosProyectos />
+      {/* Reseñas*/}
+      <Reseñas />
+      {/* Contacto*/}
+      <Contacto />
     </div>
   );
 }

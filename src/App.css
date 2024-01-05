@@ -671,3 +671,97 @@ a {
     left: 0;
     font-size: 4em;
 }
+
+.ver-mas-proyectos{
+    font-size: 2em;
+    position: absolute;
+    bottom: -5%;
+}
+
+.ver-mas-proyectos a{
+    display:flex;
+    align-items: center;   
+    gap:1rem;
+}
+
+/*Reseñas*/
+.reseñas{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 10rem;
+    background-image: url('./img/fondo2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display:flex;
+    justify-content: center;
+}
+
+.reseñas-container{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+
+.dialogo1 img,
+.dialogo2 img,
+.dialogo3 img{
+    width: 40rem;
+}
+
+.diag2{
+    padding-bottom: 20rem;
+}
+
+.estrella1,
+.estrella2,
+.triangulo,
+.circulo,
+.cuadrado-3{
+    position: absolute;
+}
+
+.estrella1{
+    bottom: 20%;
+    left:9%;
+}
+
+.triangulo{
+    top:0;
+    left: 26%;
+}
+
+.estrella2{
+    top:3%;
+    right:28%;
+}
+
+.circulo{
+    bottom: 25%;
+    left: 42%;
+}
+
+.cuadrado-3{
+    bottom:35%;
+    right: 10%;
+}
+
+/*Contacto*/
+.contacto{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-formulario{
+    width: 60vw;
+    height: 70vh;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+}

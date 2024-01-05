@@ -2,6 +2,7 @@
 import React from 'react';
 import '../App.css';
 import Pluma from '../img/pluma.png'
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 function UltimosProyectos() {
 
@@ -32,21 +33,25 @@ function UltimosProyectos() {
                 <div className='galeria-img'>
 
                     <div className='diseño-redes'>
-                      
+
                     </div>
                     <div className='patron' >
-                      
+
                     </div>
                     <div className='ilus'  >
-                      
+
                     </div>
                     <div className='marca' >
-                       
+
                     </div>
 
                 </div>
 
                 <h4>GALERÍA DE IMAGENES</h4>
+
+                <div className='ver-mas-proyectos'>
+                    <a href='#'>Ver más proyectos <IoIosArrowRoundForward /> </a>
+                </div>
             </div>
 
         </div>
