@@ -15,15 +15,35 @@ function UltimosProyectos() {
                 <h2>03.ÚLTIMOS PROYECTOS</h2>
 
                 <div className='filtros'>
-                    <div className='filtros-contain'>
-                        <h3>Ilustraciones</h3>
+
+                    <div className='btn-filtros-contain'>
+                        <div className='btn-wrapper-filtros'>
+                            <div className='btn-filtros'>
+                                Ilustraciones
+                            </div>
+                            <div className='btn-filtros-bg'></div>
+                        </div>
                     </div>
-                    <div className='filtros-contain'>
-                        <h3>General</h3>
+
+                    <div className='btn-filtros-contain'>
+                        <div className='btn-wrapper-filtros'>
+                            <div className='btn-filtros'>
+                                General
+                            </div>
+                            <div className='btn-filtros-bg'></div>
+                        </div>
                     </div>
-                    <div className='filtros-contain'>
-                        <h3>Identidad de marca</h3>
+
+                    <div className='btn-filtros-contain'>
+                        <div className='btn-wrapper-filtros'>
+                            <div className='btn-filtros'>
+                                Identidad de marca
+                            </div>
+                            <div className='btn-filtros-bg'></div>
+                        </div>
                     </div>
+
+
                 </div>
 
             </div>

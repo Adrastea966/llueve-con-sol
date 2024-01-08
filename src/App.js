@@ -9,7 +9,7 @@ import Extra from './componentes/Extra.js'
 import UltimosProyectos from './componentes/UltimosProyectos.js'
 import Reseñas from './componentes/Reseñas.js'
 import Contacto from './componentes/Contacto.js'
-
+import Footer from './componentes/Footer.js'
 
 function App() {
   return (
@@ -32,6 +32,8 @@ function App() {
       <Reseñas />
       {/* Contacto*/}
       <Contacto />
+      {/* Footer*/}
+      <Footer />
     </div>
   );
 }
