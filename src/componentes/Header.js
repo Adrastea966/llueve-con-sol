@@ -63,7 +63,7 @@ function Header() {
             <IoCloseCircleOutline />
           </div>
           <li class='li'  onClick={() => handleLiClick('acerca-de')}>
-            <a href="#">Acerca de</a>
+            <a>Acerca de</a>
             <div class="ball"></div>
           </li>
           <li class='li'  onClick={() => handleLiClick('servicios')}>

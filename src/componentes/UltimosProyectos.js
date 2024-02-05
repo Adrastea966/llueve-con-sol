@@ -96,7 +96,7 @@ function UltimosProyectos() {
                 </div>
 
                 <div className='ver-mas-proyectos'>
-                    <a href='#'>
+                    <a href='https://www.instagram.com/llueve.con.sol/' target="_blank">
                         Ver más proyectos <IoIosArrowRoundForward />
                     </a>
                 </div>

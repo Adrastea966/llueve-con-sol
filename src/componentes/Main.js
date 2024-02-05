@@ -69,13 +69,13 @@ function Main() {
                         <h1 data-aos="fade-right"> Hacemos que tu marca brille ✨</h1>
                         <p data-aos="fade-right" data-aos-delay='100'>Brindamos servicios de diseño gráfico, desde ilustraciones, contenido para redes, braning y
                             más!, ¿Comenzamos? </p>
-                        <button> <a href="#">Comenzar</a> <GoLinkExternal /> </button>
+                        <button> <a href='https://api.whatsapp.com/send/?phone=5493512505250&text&type=phone_number&app_absent=0' target="_blank">Comenzar</a> <GoLinkExternal /> </button>
                     </div>
                     <div className='redes'>
-                        <a href='#'> <FaInstagram /> </a>
-                        <a href='#'> <FaWhatsapp /> </a>
+                        <a href='https://www.instagram.com/llueve.con.sol/'  target="_blank"> <FaInstagram /> </a>
+                        <a href='https://api.whatsapp.com/send/?phone=5493512505250&text&type=phone_number&app_absent=0'  target="_blank"> <FaWhatsapp /> </a>
                         <a href='#'> <FiMail /> </a>
-                        <a href='#'> <FaBehance /> </a>
+                        <a href='https://www.behance.net/CamilaYoung' target="_blank"> <FaBehance /> </a>
                     </div>
                 </div>
             </div>

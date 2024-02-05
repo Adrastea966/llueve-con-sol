@@ -28,25 +28,25 @@ function Footer() {
                     <nav className='footer-nav'>
                         <ul>
                             <li>
-                                <a>Acerca de</a>
+                                <a onClick={() => scrollToSection('acerca-de')}>Acerca de</a>
                             </li>
                             <li>
-                                <a>Servicios</a>
+                                <a onClick={() => scrollToSection('servicios')}>Servicios</a>
                             </li>
                             <li>
-                                <a>Galería</a>
+                                <a onClick={() => scrollToSection('galeria')}>Galería</a>
                             </li>
                             <li>
-                                <a>Contacto</a>
+                                <a onClick={() => scrollToSection('contacto')}>Contacto</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
                 <div className='footer-redes'>
-                    <a href='#'> <FaInstagram /> </a>
-                    <a href='#'> <FaWhatsapp /> </a>
+                    <a href='https://www.instagram.com/llueve.con.sol/' target="_blank"> <FaInstagram /> </a>
+                    <a href='https://api.whatsapp.com/send/?phone=5493512505250&text&type=phone_number&app_absent=0' target="_blank"> <FaWhatsapp /> </a>
                     <a href='#'> <FiMail /> </a>
-                    <a href='#'> <FaBehance /> </a>
+                    <a href='https://www.behance.net/CamilaYoung' target="_blank"> <FaBehance /> </a>
                 </div>
             </div>
 
