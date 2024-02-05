@@ -110,13 +110,13 @@ function Reseñas() {
                 <img ref={circuloRef} className='circulo' src={Circulo} alt="Ilustracion decorativa circulo, siguen el movimiento del cursor" />
                 <img ref={cuadradoRef} className='cuadrado-3' src={CuadradoTres} alt="Ilustracion decorativa cuadrado rosa, siguen el movimiento del cursor" />
 
-                <div className='dialogo1'>
+                <div className='dialogo1' data-aos="fade-up">
                     <img src={DialogoUno} alt="Reseña uno de la empresa" />
                 </div>
-                <div className='dialogo2 diag2'>
+                <div className='dialogo2 diag2' data-aos="fade-up" data-aos-delay='100'>
                     <img src={DialogoDos} alt="Reseña dos sobre la empresa" />
                 </div>
-                <div className='dialogo3'>
+                <div className='dialogo3' data-aos="fade-up" data-aos-delay='200'>
                     <img src={DialogoTres} alt="Reseña tres sobre la empresa" />
                 </div>
 

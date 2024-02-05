@@ -18,8 +18,8 @@ function Extra() {
                         Merchandising y ploteos. También, realizamos
                         tu identidad de marca y el packaging de tu empresa!</p>
                 </div>
-                <img className='estrella' src={Estrella} alt="Ilustracion de una estrella. Decoracion" />
-                <img className='nube' src={Nube} alt="Ilustración que dice brand. Decoracion" />
+                <img  className='estrella' src={Estrella} alt="Ilustracion de una estrella. Decoracion" />
+                <img  className='nube' src={Nube} alt="Ilustración que dice brand. Decoracion" />
 
             </div>
 

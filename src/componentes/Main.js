@@ -57,17 +57,17 @@ function Main() {
     }, []);
 
     return (
-        <div className='container-main'>
+        <div className='container-main' id="main">
             <div className='main'>
                 <div className='img-main'>
-                    <img className='img-principal' src={ImgMain} alt="Imagen principal que muestra una foto del equipo" />
+                    <img data-aos="fade-up" className='img-principal' src={ImgMain} alt="Imagen principal que muestra una foto del equipo" />
                     <img className='altavoz' ref={altavozRef} src={Altavoz} alt="Ilustración de un altavoz" />
                 </div>
                 <div className='texto-main'>
                     <div className='contenido-principal'>
                         <img className='cohete' ref={coheteRef} src={Cohete} alt="Ilustracion de un cohete" />
-                        <h1> Hacemos que tu marca brille ✨</h1>
-                        <p>Brindamos servicios de diseño gráfico, desde ilustraciones, contenido para redes, braning y
+                        <h1 data-aos="fade-right"> Hacemos que tu marca brille ✨</h1>
+                        <p data-aos="fade-right" data-aos-delay='100'>Brindamos servicios de diseño gráfico, desde ilustraciones, contenido para redes, braning y
                             más!, ¿Comenzamos? </p>
                         <button> <a href="#">Comenzar</a> <GoLinkExternal /> </button>
                     </div>
